@@ -14,6 +14,7 @@ puts "----------"
 Store.find(3).destroy
 
 # WHY WOULD WE EVER NEED TO LOAD THE THIRD STORE INTO @store3 if we're going to destroy it?
+# IF statement, get the value, check against condition
 
 # puts store.count
 puts "---------------------------"
