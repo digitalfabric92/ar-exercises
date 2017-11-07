@@ -11,5 +11,6 @@ puts "----------"
 puts "TOTAL REVENUE: ", Store.sum(:annual_revenue)
 # 2 revenue/store
 puts "AVERAGE REVENUE: ", Store.sum(:annual_revenue) / Store.count
+puts "AVERAGE METHOD: ", Store.average(:annual_revenue)
 # 3 .where ('annual_revnue' > 100000).count
 puts "$1 MIL or More: ", Store.where("annual_revenue > ?", 1000000).count
