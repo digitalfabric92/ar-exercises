@@ -6,3 +6,22 @@ puts "Exercise 3"
 puts "----------"
 
 # Your code goes here ...
+
+# Find store 3
+# @store3 = Store.find(3)
+# Destroy store 3
+# @store3.destroy(3)
+Store.find(3).destroy
+
+# WHY WOULD WE EVER NEED TO LOAD THE THIRD STORE INTO @store3 if we're going to destroy it?
+
+# puts store.count
+puts "---------------------------"
+puts "STORE COUNT: #{Store.count}"
+
+# https://stackoverflow.com/questions/4177686/how-do-you-delete-an-activerecord-object
+# user.destroy
+# User.find(15).destroy
+# User.destroy(15)
+# User.where(age: 20).destroy_all
+# User.destroy_all(age: 20)
